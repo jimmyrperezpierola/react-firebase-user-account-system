@@ -1,0 +1,30 @@
+/* ActionButton component stylesheet */
+
+@import '../../themes/colors.css';
+
+.button {
+    align-items: center;
+    color: var(--darkGray);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 7px;
+    padding-left: 0;
+}
+
+.button:hover {
+    color: var(--black);
+}
+
+.button svg {
+    padding-right: 7px;
+}
+
+.button label {
+    cursor: pointer;
+}
+
+.disabled {
+    color: var(--lightGray);
+}

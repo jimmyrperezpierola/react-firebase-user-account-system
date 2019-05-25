@@ -1,0 +1,11 @@
+/* FormLabel component stylesheet */
+
+.formLabelContainer {
+    margin-bottom: 5px;
+}
+
+.formLabel {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 500;
+}

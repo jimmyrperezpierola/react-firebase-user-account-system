@@ -1,0 +1,12 @@
+{
+    "prod": {
+      "port": "3000",
+      "host": "http://localhost",
+      "no_reply_email": "noreply@uas.com"
+    },
+    "dev": {
+      "no_reply_email": "noreply@uas.com",
+      "host": "http://localhost",
+      "port": "3000"
+    }
+  }

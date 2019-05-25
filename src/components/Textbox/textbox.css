@@ -1,0 +1,24 @@
+/* Textbox component stylesheet */
+
+.textbox {
+    -webkit-appearance: none;
+    border-color: #707070;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1.3px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 1.3em;
+    padding: 7px;
+    width: 100%;
+}
+
+.error {
+    border-color: red;
+    border-width: 1.3px;
+}
+
+.validation {
+    color: red;
+    padding: 5px 0;
+}

@@ -1,0 +1,7 @@
+/* Title component stylesheet */
+
+.title {
+    font-size: 2em;
+    margin: 35px auto;
+    line-height: 1em;
+}

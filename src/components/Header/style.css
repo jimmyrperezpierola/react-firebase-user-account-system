@@ -1,0 +1,38 @@
+/* Header component stylesheet */
+
+.headerParent {
+  background-color: #FCFCFC;
+  box-shadow: 0px 2px 5px #E0E0E0;
+  color: #727272;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  padding: 5px 15px;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.banner {
+  align-items: center;
+  background-color: #6C6C6C;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+  .banner .icon {
+    cursor: pointer;
+    font-size: 20px;
+  }

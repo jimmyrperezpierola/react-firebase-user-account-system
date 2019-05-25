@@ -1,0 +1,12 @@
+/* FormErrors component stylesheet */
+
+.formErrors {
+    color: red;
+    font-size: 1em;
+}
+
+.row {
+    align-items: center;
+    display: inline-flex;
+    margin: 5px auto;
+}
