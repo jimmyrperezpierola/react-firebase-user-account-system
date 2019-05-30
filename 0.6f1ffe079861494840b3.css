@@ -1,0 +1,290 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+/* ActionButton component stylesheet */
+
+/* Colors stylsheet */
+
+:root {
+    --black: #000;
+    --darkGray: #3E3E3E; 
+    --gray: #6C6C6C;
+    --lightGray: gray;
+    --red: #EF0000;
+    --white: #FFF;
+}
+
+._20CtX {
+    align-items: center;
+    color: #3E3E3E;
+    color: var(--darkGray);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 7px;
+    padding-left: 0;
+}
+
+._20CtX:hover {
+    color: #000;
+    color: var(--black);
+}
+
+._20CtX svg {
+    padding-right: 7px;
+}
+
+._20CtX label {
+    cursor: pointer;
+}
+
+._144r7 {
+    color: gray;
+    color: var(--lightGray);
+}
+
+/* Button component stylesheet */
+
+._1-HdD {
+    background-color: white;
+    border-color: #707070;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1.5px;
+    cursor: pointer;
+    color: #5d5c5c;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+}
+
+.HqV-4 {
+    border-color: lightgray;
+    color: lightgray;
+}
+
+/* Form component stylesheet */
+
+._2tvkl {
+    margin: 75px auto;
+    width: 250px;
+}
+
+/* FormErrors component stylesheet */
+
+.NEIDQ {
+    color: red;
+    font-size: 1em;
+}
+
+._22_sL {
+    align-items: center;
+    display: inline-flex;
+    margin: 5px auto;
+}
+
+/* FormInput component stylesheet */
+
+._2vnS3 {
+    margin: 20px auto;
+}
+
+/* FormLabel component stylesheet */
+
+._1j2-x {
+    margin-bottom: 5px;
+}
+
+._2G_x5 {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Header component stylesheet */
+
+.rPvhv {
+  background-color: #FCFCFC;
+  box-shadow: 0px 2px 5px #E0E0E0;
+  color: #727272;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+._2uitE {
+  padding: 5px 15px;
+}
+
+._2uitE h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+._1DgEn {
+  align-items: center;
+  background-color: #6C6C6C;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+
+._1DgEn .DqvK6 {
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+/* Textbox component stylesheet */
+
+._3liu5 {
+    -webkit-appearance: none;
+    border-color: #707070;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1.3px;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 1.3em;
+    padding: 7px;
+    width: 100%;
+}
+
+._1Jv__ {
+    border-color: red;
+    border-width: 1.3px;
+}
+
+._k9Fm {
+    color: red;
+    padding: 5px 0;
+}
+
+/* Title component stylesheet */
+
+._3oXgr {
+    font-size: 2em;
+    margin: 35px auto;
+    line-height: 1em;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+._2d_W2 {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 1em;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+body {
+  font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #FCFCFC;
+  color: #3E3E3E;
+  margin: 0 auto;
+  padding-top: 65px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+}
+
+button,
+input[type='checkbox'] {
+  outline: none;
+}
+
+.KTVh6 {
+  background: #fff;
+  margin: 200px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.KTVh6 input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.KTVh6 input::-moz-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.KTVh6 input::input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.KTVh6 h1 {
+  position: absolute;
+  top: -155px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: #3E3E3E;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+}
+
