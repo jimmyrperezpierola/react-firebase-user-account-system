@@ -63,8 +63,8 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^3.0.2",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
     "@types/mime": "^2.0.1",
     "classnames": "^2.2.6",
     "connected-react-router": "^6.3.2",
@@ -73,9 +73,9 @@
     "query-string": "^6.5.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-redux": "^6.0.0",
-    "react-router": "5.0.0",
-    "react-spinners": "^0.5.4",
+    "react-redux": "^9.0.0",
+    "react-router": "6.4.0",
+    "react-spinners": "^0.11.0",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.4",
     "redux-thunk": "^2.3.0"
